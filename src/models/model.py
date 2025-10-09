@@ -9,8 +9,8 @@ import random
 from sklearn.metrics import f1_score
 from collections import defaultdict
 
-from graphsage.encoders import Encoder
-from graphsage.aggregators import MeanAggregator
+from src.models.encoders import Encoder
+from src.models.aggregators import MeanAggregator
 
 """
 Simple supervised GraphSAGE model as well as examples running the model
